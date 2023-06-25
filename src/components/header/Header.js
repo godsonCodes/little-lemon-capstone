@@ -1,10 +1,10 @@
 import React from 'react'
-import '/Header.css'
+import './Header.css'
 
 const Header = () => {
   return (
     <header>
-      <img src='../images/Logo .svg' alt='' />
+      <img src='../../images/Logo .svg' alt='' />
       <nav className='navbar'>
         <ul>
           <li>
@@ -27,6 +27,11 @@ const Header = () => {
           </li>
         </ul>
       </nav>
+      <img
+        src='../../images/🦆 icon _hamburger menu_.svg'
+        alt=''
+        className='menu-icon'
+      />
     </header>
   )
 }

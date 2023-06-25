@@ -1,3 +1,54 @@
 header {
-  background: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+  position: relative;
+}
+
+header img {
+  width: 24.1rem;
+  height: 6.6rem;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul li {
+  margin: 0 1.5rem;
+  list-style-type: none;
+  font-family: 'Karla', sans-serif;
+}
+
+header nav ul li a {
+  font-size: 1.8rem;
+  font-family: Karla;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: var(--black);
+}
+
+.menu-icon {
+  height: 2.5rem;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+  header nav ul {
+    display: block;
+    position: absolute;
+    top: 80%;
+    right: 2rem;
+    width: 40%;
+    background: red;
+    display: none;
+  }
+  header nav ul li {
+    padding: 1rem 0;
+  }
 }

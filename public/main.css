@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700;800&family=Markazi+Text:wght@400;500;600;700&display=swap');
+
+:root {
+  --green: #495e57;
+  --yellow: #f4ce14;
+  --orange: #ee9972;
+  --peach: #fbdabb;
+  --light-grey: #edefee;
+  --black: #333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+#root {
+  width: 60%;
+  margin: 0 auto;
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+  #root {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  #root {
+    width: 90%;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+}
